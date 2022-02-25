@@ -1,0 +1,23 @@
+body  {
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/* Target a class you place a period infront of the classname in CSS */
+.navBar {
+    width: 180%;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.navItem {
+    padding: 0 
+}
